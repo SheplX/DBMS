@@ -1,0 +1,1004 @@
+<7>[    3.620416]  [7:           init:    1] usb: enable_store enabled=0, !dev->enabled=1
+<3>[    3.620431]  [7:           init:    1] android_usb: already disabled
+<7>[    3.620575]  [7:           init:    1] usb: functions_store buff=mtp,adb
+<7>[    3.620587]  [7:           init:    1] usb: android_enable_function name=mtp
+<7>[    3.620598]  [7:           init:    1] usb: android_enable_function name=acm
+<7>[    3.620607]  [7:           init:    1] usb: android_enable_function name=adb
+<7>[    3.620782]  [7:           init:    1] usb: enable_store enabled=1, !dev->enabled=1
+<7>[    3.620792]  [7:           init:    1] usb: enable_store f:mtp
+<7>[    3.620800]  [7:           init:    1] usb: enable_store f:acm
+<7>[    3.620808]  [7:           init:    1] usb: acm is enabled. (bcdDevice=0x400)
+<7>[    3.620817]  [7:           init:    1] usb: enable_store f:adb
+<7>[    3.620829]  [7:           init:    1] usb: enable_store vendor=4e8,product=6860,bcdDevice=400
+<7>[    3.620836]  [7:           init:    1] ,Class=0,SubClass=0,Protocol=0
+<7>[    3.620845]  [7:           init:    1] usb: enable_store next cmd : usb_add_config
+<11>[    3.621336]  [7:           init:    1] init: Unable to open persistent property directory /data/property errno: 2
+<6>[    3.624038]  [5:           adbd: 2248] adb_open
+<7>[    3.624058]  [5:           adbd: 2248] usb: android_bind_enabled_functions f:mtp
+<6>[    3.624070]  [5:           adbd: 2248] mtp_bind_config
+<7>[    3.624084]  [5:           adbd: 2248] usb: usb_string_id cdev(0xffffffc04e2ba380)->next_string_id=5
+<11>[    3.624114]  [7:           init:    1] init: Warning!  Service recovery needs a SELinux domain defined; please fix!
+<7>[    3.624127]  [5:           adbd: 2248] usb: android_bind_enabled_functions f:acm
+<7>[    3.624139]  [5:           adbd: 2248] usb: usb_string_id cdev(0xffffffc04e2ba380)->next_string_id=6
+<7>[    3.624148]  [5:           adbd: 2248] usb: usb_string_id cdev(0xffffffc04e2ba380)->next_string_id=7
+<7>[    3.624157]  [5:           adbd: 2248] usb: usb_string_id cdev(0xffffffc04e2ba380)->next_string_id=8
+<6>[    3.624172]  [5:           adbd: 2248] DUN is registerd
+<7>[    3.624181]  [5:           adbd: 2248] usb: android_bind_enabled_functions f:adb
+<6>[    3.624189]  [5:           adbd: 2248] adb_bind_config
+<7>[    3.624543]  [7:           init:    1] usb: enable_store enabled=0, !dev->enabled=0
+<7>[    3.624560]  [7:           init:    1] usb: usb_remove_config cdev->config=          (null), config=ffffffc000d2def8
+<7>[    3.624570]  [7:           init:    1] usb: unbind_config, 
+<7>[    3.624603]  [7:           init:    1] usb: unbind_config, 
+<6>[    3.624615]  [7:           init:    1] DUN is unregisterd
+<7>[    3.624623]  [7:           init:    1] usb: unbind_config, 
+<7>[    3.624772]  [7:           init:    1] usb: enable_store enabled=1, !dev->enabled=1
+<7>[    3.624783]  [7:           init:    1] usb: enable_store f:mtp
+<7>[    3.624791]  [7:           init:    1] usb: enable_store f:acm
+<7>[    3.624799]  [7:           init:    1] usb: acm is enabled. (bcdDevice=0x400)
+<7>[    3.624808]  [7:           init:    1] usb: enable_store f:adb
+<7>[    3.624821]  [7:           init:    1] usb: enable_store vendor=4e8,product=6860,bcdDevice=400
+<7>[    3.624828]  [7:           init:    1] ,Class=0,SubClass=0,Protocol=0
+<7>[    3.624836]  [7:           init:    1] usb: enable_store next cmd : usb_add_config
+<7>[    3.624846]  [7:           init:    1] usb: android_bind_enabled_functions f:mtp
+<6>[    3.624854]  [7:           init:    1] mtp_bind_config
+<7>[    3.624888]  [7:           init:    1] usb: android_bind_enabled_functions f:acm
+<6>[    3.624903]  [7:           init:    1] DUN is registerd
+<7>[    3.624917]  [7:           init:    1] usb: android_bind_enabled_functions f:adb
+<6>[    3.624931]  [7:           init:    1] adb_bind_config
+<6>[    3.625072]  [5:           adbd: 2248] adb_release
+<7>[    3.625087]  [5:           adbd: 2248] usb: usb_remove_config cdev->config=          (null), config=ffffffc000d2def8
+<7>[    3.625096]  [5:           adbd: 2248] usb: unbind_config, 
+<7>[    3.625124]  [5:           adbd: 2248] usb: unbind_config, 
+<6>[    3.625135]  [5:           adbd: 2248] DUN is unregisterd
+<7>[    3.625143]  [5:           adbd: 2248] usb: unbind_config, 
+<6>[    3.640015]  [3:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<6>[    3.699229]  [0:       recovery: 2249] dsim_panel_set_elvss: 0 Tset: 48 Temp: 25 
+<6>[    3.719453]  [0:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<6>[    3.720179]  [0:       recovery: 2249]  decon_mmap : before: 0  ffffffc047a070b0 ffffffc049330a00 ffffffc049348c88 
+<6>[    3.720179]  [0:       recovery: 2249]  
+<6>[    3.720274]  [0:       recovery: 2249]  decon_mmap : before: 0  ffffffc047a070b0 ffffffc049330a00 ffffffc049348c88 
+<6>[    3.720274]  [0:       recovery: 2249]  <6>[    3.749196]  [0:       recovery: 2249] MDD : ea8061_exit was called
+<6>[    3.966179]  [0:       recovery: 2249] dsim_disable ++
+<6>[    3.978326]  [0:       recovery: 2249] dsim_disable --
+<6>[    3.978368]  [0:       recovery: 2249] dsim_panel_set_brightness : panel is not active state..
+<4>[    3.980401]  [7:    migration/7:   43] IRQ145 no longer affine to CPU7
+<5>[    3.980881]  [6:       recovery: 2249] CPU7: shutdown
+<4>[    3.982768]  [6:    migration/6:   38] IRQ144 no longer affine to CPU6
+<5>[    3.983243]  [1:       recovery: 2249] CPU6: shutdown
+<4>[    3.985301]  [5:    migration/5:   33] IRQ143 no longer affine to CPU5
+<5>[    3.985720]  [4:       recovery: 2249] CPU5: shutdown
+<4>[    3.987091]  [4:    migration/4:   28] IRQ142 no longer affine to CPU4
+<5>[    3.987514]  [0:       recovery: 2249] CPU4: shutdown
+<4>[    3.989832]  [1:       recovery: 2249] decon 14830000.decon_fb: state restore latency exceeded, new value 1668539 ns
+<4>[    3.989839]  [1:       recovery: 2249] decon 14830000.decon_fb: pm_stay_awake
+<6>[    3.989842]  [1:       recovery: 2249] dsim_enable ++
+<4>[    4.033193]  [0:       recovery: 2249]  dsim_panel_get_priv_ops : 4 
+<4>[    4.033193]  [0:       recovery: 2249]  
+<6>[    4.033194]  [0:       recovery: 2249] MDD : ea8061_init was called
+<6>[    4.162110]  [0:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<6>[    4.162225]  [0:       recovery: 2249] dsim_panel_set_elvss: 0 Tset: 48 Temp: 25 
+<6>[    4.162239]  [0:       recovery: 2249] acl: 0, auto_brightness: 0
+<6>[    4.162253]  [0:       recovery: 2249] MDD : ea8061_displayon was called
+<6>[    4.162256]  [0:       recovery: 2249] pclk_dsi_link0: 100 Mhz
+<6>[    4.162258]  [0:       recovery: 2249] phyclk_rxclkesc0: 20 Mhz
+<6>[    4.162261]  [0:       recovery: 2249] phyclk_bitclkdiv8: 188 Mhz
+<6>[    4.162263]  [0:       recovery: 2249] sclk_dsi_link0_i_rgb_vclk: 166 Mhz
+<6>[    4.162265]  [0:       recovery: 2249] pclk_decon_int: 100 Mhz
+<6>[    4.162267]  [0:       recovery: 2249] dsim_enable --
+<6>[    4.178945]  [0:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<6>[    4.212650]  [0:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<6>[    4.279591]  [0:       recovery: 2249] mms_ts 9-0048: mms_enable [START]
+<3>[    4.279604]  [0:       recovery: 2249] mms_ts 9-0048: mms_enable : already enabled
+<6>[    4.288713]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    4.288734]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:0 
+<6>[    4.288743]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.288755]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    4.298541]  [1:       recovery: 2249] EXT4-fs (mmcblk0p21): recovery complete
+<6>[    4.298559]  [1:       recovery: 2249] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+<6>[    4.298573]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    4.298579]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.298591]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<6>[    4.299151]  [1:       recovery: 2249] SELinux:  Context u:object_r:cache_recovery_file:s0 is not valid (left unmapped).
+<6>[    4.315213]  [1:       recovery: 2249] EXT4-fs (mmcblk0p23): recovery complete
+<6>[    4.315620]  [1:       recovery: 2249] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+<6>[    4.315636]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    4.315642]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.315654]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+<6>[    4.315691]  [1:       recovery: 2249] SELinux:  Context u:object_r:system_data_root_file:s0 is not valid (left unmapped).
+<6>[    4.336993]  [1:       recovery: 2249] EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: 
+<6>[    4.337018]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    4.337027]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.337043]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+<6>[    4.354175]  [1:       recovery: 2249] SELinux:  Context u:object_r:environ_system_data_file:s0 is not valid (left unmapped).
+<6>[    4.354570]  [1:       recovery: 2249] SELinux:  Context u:object_r:dropbox_data_file:s0 is not valid (left unmapped).
+<6>[    4.355168]  [1:       recovery: 2249] SELinux:  Context u:object_r:heapdump_data_file:s0 is not valid (left unmapped).
+<6>[    4.357641]  [1:       recovery: 2249] SELinux:  Context u:object_r:bootchart_data_file:s0 is not valid (left unmapped).
+<6>[    4.358639]  [1:       recovery: 2249] SELinux:  Context u:object_r:vendor_data_file:s0 is not valid (left unmapped).
+<6>[    4.359793]  [1:       recovery: 2249] SELinux:  Context u:object_r:tombstone_wifi_data_file:s0 is not valid (left unmapped).
+<6>[    4.360550]  [1:       recovery: 2249] SELinux:  Context u:object_r:wpa_data_file:s0 is not valid (left unmapped).
+<6>[    4.361287]  [1:       recovery: 2249] SELinux:  Context u:object_r:hostapd_data_file:s0 is not valid (left unmapped).
+<6>[    4.363640]  [1:       recovery: 2249] SELinux:  Context u:object_r:recovery_data_file:s0 is not valid (left unmapped).
+<6>[    4.365164]  [1:       recovery: 2249] SELinux:  Context u:object_r:bluetooth_logs_data_file:s0 is not valid (left unmapped).
+<6>[    4.365977]  [1:       recovery: 2249] SELinux:  Context u:object_r:nfc_logs_data_file:s0 is not valid (left unmapped).
+<6>[    4.366314]  [1:       recovery: 2249] SELinux:  Context u:object_r:credstore_data_file:s0 is not valid (left unmapped).
+<6>[    4.366470]  [1:       recovery: 2249] SELinux:  Context u:object_r:gatekeeper_data_file:s0 is not valid (left unmapped).
+<6>[    4.366945]  [1:       recovery: 2249] SELinux:  Context u:object_r:radio_core_data_file:s0 is not valid (left unmapped).
+<6>[    4.368538]  [1:       recovery: 2249] SELinux:  Context u:object_r:emergency_data_file:s0 is not valid (left unmapped).
+<6>[    4.368782]  [1:       recovery: 2249] SELinux:  Context u:object_r:network_watchlist_data_file:s0 is not valid (left unmapped).
+<6>[    4.368896]  [1:       recovery: 2249] SELinux:  Context u:object_r:textclassifier_data_file:s0 is not valid (left unmapped).
+<6>[    4.371323]  [1:       recovery: 2249] SELinux:  Context u:object_r:audioserver_data_file:s0 is not valid (left unmapped).
+<6>[    4.371520]  [1:       recovery: 2249] SELinux:  Context u:object_r:vold_data_file:s0 is not valid (left unmapped).
+<6>[    4.372079]  [1:       recovery: 2249] SELinux:  Context u:object_r:boottrace_data_file:s0 is not valid (left unmapped).
+<6>[    4.372200]  [1:       recovery: 2249] SELinux:  Context u:object_r:update_engine_data_file:s0 is not valid (left unmapped).
+<6>[    4.372313]  [1:       recovery: 2249] SELinux:  Context u:object_r:update_engine_log_data_file:s0 is not valid (left unmapped).
+<6>[    4.372424]  [1:       recovery: 2249] SELinux:  Context u:object_r:method_trace_data_file:s0 is not valid (left unmapped).
+<6>[    4.372533]  [1:       recovery: 2249] SELinux:  Context u:object_r:wm_trace_data_file:s0 is not valid (left unmapped).
+<6>[    4.372644]  [1:       recovery: 2249] SELinux:  Context u:object_r:accessibility_trace_data_file:s0 is not valid (left unmapped).
+<6>[    4.372831]  [1:       recovery: 2249] SELinux:  Context u:object_r:user_profile_root_file:s0 is not valid (left unmapped).
+<6>[    4.372937]  [1:       recovery: 2249] SELinux:  Context u:object_r:user_profile_root_file:s0:c512,c768 is not valid (left unmapped).
+<6>[    4.373288]  [1:       recovery: 2249] SELinux:  Context u:object_r:user_profile_data_file:s0 is not valid (left unmapped).
+<6>[    4.373410]  [1:       recovery: 2249] SELinux:  Context u:object_r:profman_dump_data_file:s0 is not valid (left unmapped).
+<6>[    4.373672]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_module_data_file:s0 is not valid (left unmapped).
+<6>[    4.373808]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_wifi_data_file:s0 is not valid (left unmapped).
+<6>[    4.374403]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_scheduling_data_file:s0 is not valid (left unmapped).
+<6>[    4.375545]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_permission_data_file:s0 is not valid (left unmapped).
+<6>[    4.376797]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_art_data_file:s0 is not valid (left unmapped).
+<6>[    4.377096]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_rollback_data_file:s0 is not valid (left unmapped).
+<6>[    4.377214]  [1:       recovery: 2249] SELinux:  Context u:object_r:appcompat_data_file:s0 is not valid (left unmapped).
+<6>[    4.377329]  [1:       recovery: 2249] SELinux:  Context u:object_r:snapshotctl_log_data_file:s0 is not valid (left unmapped).
+<6>[    4.377442]  [1:       recovery: 2249] SELinux:  Context u:object_r:prereboot_data_file:s0 is not valid (left unmapped).
+<6>[    4.377555]  [1:       recovery: 2249] SELinux:  Context u:object_r:odrefresh_data_file:s0 is not valid (left unmapped).
+<6>[    4.377666]  [1:       recovery: 2249] SELinux:  Context u:object_r:odsign_data_file:s0 is not valid (left unmapped).
+<6>[    4.377785]  [1:       recovery: 2249] SELinux:  Context u:object_r:stats_data_file:s0 is not valid (left unmapped).
+<6>[    4.378880]  [1:       recovery: 2249] SELinux:  Context u:object_r:bootstat_data_file:s0 is not valid (left unmapped).
+<6>[    4.378996]  [1:       recovery: 2249] SELinux:  Context u:object_r:incident_data_file:s0 is not valid (left unmapped).
+<6>[    4.379111]  [1:       recovery: 2249] SELinux:  Context u:object_r:iorapd_data_file:s0 is not valid (left unmapped).
+<6>[    4.379261]  [1:       recovery: 2249] SELinux:  Context u:object_r:misc_logd_file:s0 is not valid (left unmapped).
+<6>[    4.379411]  [1:       recovery: 2249] SELinux:  Context u:object_r:profcollectd_data_file:s0 is not valid (left unmapped).
+<6>[    4.379782]  [1:       recovery: 2249] SELinux:  Context u:object_r:perfetto_traces_data_file:s0 is not valid (left unmapped).
+<6>[    4.379891]  [1:       recovery: 2249] SELinux:  Context u:object_r:perfetto_traces_bugreport_data_file:s0 is not valid (left unmapped).
+<6>[    4.380017]  [1:       recovery: 2249] SELinux:  Context u:object_r:perfetto_configs_data_file:s0 is not valid (left unmapped).
+<6>[    4.382001]  [1:       recovery: 2249] SELinux:  Context u:object_r:fingerprint_vendor_data_file:s0 is not valid (left unmapped).
+<6>[    4.382873]  [1:       recovery: 2249] SELinux:  Context u:object_r:face_vendor_data_file:s0 is not valid (left unmapped).
+<6>[    4.386343]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_data_file:s0 is not valid (left unmapped).
+<6>[    4.387573]  [1:       recovery: 2249] SELinux:  Context u:object_r:apex_ota_reserved_file:s0 is not valid (left unmapped).
+<6>[    4.387768]  [1:       recovery: 2249] SELinux:  Context u:object_r:staging_data_file:s0 is not valid (left unmapped).
+<6>[    4.390283]  [1:       recovery: 2249] SELinux:  Context u:object_r:trace_data_file:s0 is not valid (left unmapped).
+<6>[    4.390664]  [1:       recovery: 2249] SELinux:  Context u:object_r:shell_test_data_file:s0 is not valid (left unmapped).
+<6>[    4.392335]  [1:       recovery: 2249] SELinux:  Context u:object_r:preloads_data_file:s0 is not valid (left unmapped).
+<6>[    4.393724]  [1:       recovery: 2249] SELinux:  Context u:object_r:font_data_file:s0 is not valid (left unmapped).
+<6>[    4.394159]  [1:       recovery: 2249] SELinux:  Context u:object_r:ota_data_file:s0 is not valid (left unmapped).
+<6>[    4.394269]  [1:       recovery: 2249] SELinux:  Context u:object_r:ota_package_file:s0 is not valid (left unmapped).
+<6>[    4.396087]  [1:       recovery: 2249] SELinux:  Context u:object_r:storaged_data_file:s0 is not valid (left unmapped).
+<6>[    4.396208]  [1:       recovery: 2249] SELinux:  Context u:object_r:rollback_data_file:s0 is not valid (left unmapped).
+<6>[    4.400207]  [1:       recovery: 2249] SELinux:  Context u:object_r:fingerprintd_data_file:s0 is not valid (left unmapped).
+<6>[    4.400347]  [1:       recovery: 2249] SELinux:  Context u:object_r:gsi_persistent_data_file:s0 is not valid (left unmapped).
+<6>[    4.400409]  [1:       recovery: 2249] SELinux:  Context u:object_r:gsi_data_file:s0 is not valid (left unmapped).
+<6>[    4.400595]  [1:       recovery: 2249] SELinux:  Context u:object_r:ota_image_data_file:s0 is not valid (left unmapped).
+<6>[    4.400840]  [1:       recovery: 2249] SELinux:  Context u:object_r:adbroot_data_file:s0 is not valid (left unmapped).
+<6>[    4.401294]  [1:       recovery: 2249] SELinux:  Context u:object_r:server_configurable_flags_data_file:s0 is not valid (left unmapped).
+<6>[    4.409860]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    4.409886]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    4.409896]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.409911]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    4.417972]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    4.417998]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    4.418007]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    4.418023]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    4.435231]  [1:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): trying to mount...
+<6>[    4.444087]  [1:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): mounted successfully!
+<7>[    4.444168]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+<4>[    4.772121]  [0:    kworker/0:1:  396] keys:flip_cover_work #1 : 1
+<6>[    5.046201]  [1:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): trying to unmount...
+<6>[    5.049668]  [1:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): unmounted successfully!
+<6>[    5.294654]  [2:           adbd: 2277] adb_open
+<7>[    5.294669]  [2:           adbd: 2277] usb: android_bind_enabled_functions f:mtp
+<6>[    5.294675]  [2:           adbd: 2277] mtp_bind_config
+<7>[    5.294706]  [2:           adbd: 2277] usb: android_bind_enabled_functions f:acm
+<6>[    5.294717]  [2:           adbd: 2277] DUN is registerd
+<7>[    5.294722]  [2:           adbd: 2277] usb: android_bind_enabled_functions f:adb
+<6>[    5.294727]  [2:           adbd: 2277] adb_bind_config
+<6>[    6.203630]  [2:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): trying to mount...
+<6>[    6.212158]  [2:       recovery: 2249] FAT-fs (mmcblk1p1[179:33]): mounted successfully!
+<7>[    6.212187]  [2:       recovery: 2249] SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+<6>[    6.813863]  [2:       recovery: 2249] dsim_panel_set_brightness : platform : 255, : mapping : 350, real : 350, index : 61
+<7>[    6.818046]  [3:           init:    1] usb: enable_store enabled=0, !dev->enabled=0
+<7>[    6.818069]  [3:           init:    1] usb: usb_remove_config cdev->config=          (null), config=ffffffc000d2def8
+<7>[    6.818079]  [3:           init:    1] usb: unbind_config, 
+<7>[    6.818116]  [3:           init:    1] usb: unbind_config, 
+<6>[    6.818128]  [3:           init:    1] DUN is unregisterd
+<7>[    6.818136]  [3:           init:    1] usb: unbind_config, 
+<6>[    6.818348]  [0:           adbd: 2279] adb_release
+<7>[    6.818399]  [3:           init:    1] usb: enable_store enabled=0, !dev->enabled=1
+<3>[    6.818410]  [3:           init:    1] android_usb: already disabled
+<7>[    6.818611]  [3:           init:    1] usb: functions_store buff=mtp,adb
+<7>[    6.818623]  [3:           init:    1] usb: android_enable_function name=mtp
+<7>[    6.818633]  [3:           init:    1] usb: android_enable_function name=acm
+<7>[    6.818643]  [3:           init:    1] usb: android_enable_function name=adb
+<7>[    6.818693]  [3:           init:    1] usb: enable_store enabled=1, !dev->enabled=1
+<7>[    6.818703]  [3:           init:    1] usb: enable_store f:mtp
+<7>[    6.818711]  [3:           init:    1] usb: enable_store f:acm
+<7>[    6.818719]  [3:           init:    1] usb: acm is enabled. (bcdDevice=0x400)
+<7>[    6.818727]  [3:           init:    1] usb: enable_store f:adb
+<7>[    6.818740]  [3:           init:    1] usb: enable_store vendor=18d1,product=4ee2,bcdDevice=400
+<7>[    6.818747]  [3:           init:    1] ,Class=0,SubClass=0,Protocol=0
+<7>[    6.818755]  [3:           init:    1] usb: enable_store next cmd : usb_add_config
+<6>[    6.821974]  [2:           adbd: 2291] adb_open
+<7>[    6.821992]  [2:           adbd: 2291] usb: android_bind_enabled_functions f:mtp
+<6>[    6.822037]  [2:           adbd: 2291] mtp_bind_config
+<7>[    6.822078]  [2:           adbd: 2291] usb: android_bind_enabled_functions f:acm
+<6>[    6.822094]  [2:           adbd: 2291] DUN is registerd
+<7>[    6.822104]  [2:           adbd: 2291] usb: android_bind_enabled_functions f:adb
+<6>[    6.822112]  [2:           adbd: 2291] adb_bind_config
+<6>[    6.829859]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    6.829886]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    6.829895]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    6.829911]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    6.838970]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    6.838996]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    6.839006]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    6.839022]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    6.850409]  [1:       recovery: 2249] EXT4-fs (mmcblk0p20): mounted filesystem without journal. Opts: 
+<6>[    6.850435]  [1:       recovery: 2249] SELinux: fstype:ext4, behavior:1, con_sid:4 
+<6>[    6.850444]  [1:       recovery: 2249] SELinux: fstype:ext4 assigned superblock SID 4 
+<7>[    6.850461]  [1:       recovery: 2249] SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<6>[    7.620561]  [3:       recovery: 2290] mtp_open
+<6>[   11.082126]  [1:    kworker/1:1:  951] muic_print_reg_log:b(0)0 c(0)0 d(0)0 e(0)0 13(1)0 14(0)0 15(0)0 1b(0)0 1d(0)0 20(4)0 21(0)0 24(0)0 3a(0)0 2(1f)0 2(1e)1 2(1e)0 2(1e)0 3(0)0 4(0)0 a(0)0 b(0)0 15(0)0 1d(0)0 7(1f)0 13(1)0 
+<6>[   11.090650]  [1:    kworker/1:1:  951] muic_print_reg_dump:CT:1e IM1:dc IM2:0 MS1:1 MS2:0 ADC:1f DT1:0 DT2:0 DT3:0 RS1:0
+<6>[   12.302093]  [2:    kworker/2:1: 1401] usb_notify: reserve_state_check booting delay finished
+<6>[   32.316727]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   32.331906]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x00, 0x9 = 0x00, 0xa = 0x00, 0xb = 0x00, 0xc = 0x55, 0xd = 0x07, 0xe = 0x03, 0xf = 0x22, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x40, 0x66 = 0x00, 
+<6>[   32.333378]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(248), Temp-ADC(2096)
+<6>[   32.334178]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(248), Temp-ADC(2096)
+<6>[   32.334216]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   32.334245]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   32.335076]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x1b20, temperature = 271
+<6>[   32.335327]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   32.335364]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 271, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6900
+<6>[   32.335758]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d4c, soc = 772
+<6>[   32.336006]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   32.336249]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   32.336502]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   32.336756]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   32.337009]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   32.337262]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   32.337516]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   32.337769]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   32.338022]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   32.338275]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   32.338528]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   32.338785]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   32.338828]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4015mV),Inow(-160mA),Imax(1800mA),SOC(77%),Tbat(248),Tchg(0),is_hc_usb(0)
+<6>[   32.338859]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   32.339559]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1130), temp(248)
+<6>[   32.339583]  [0:    kworker/0:1:  396] sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[   32.339619]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Discharging), mode(None), Health(Good), Cable(1), level(100%)
+<6>[   34.092629]  [0: irq/5-muic-irq:  956] sm,sm5703:muic_irq_handler irq(5)
+<6>[   34.096123]  [0: irq/5-muic-irq:  956] sm,sm5703:muic_irq_handler intr[1:0x1, 2:0x0]
+<6>[   34.101892]  [0: irq/5-muic-irq:  956] muic-universal:muic_detect_dev dev[1:0x20, 2:0x0, 3:0x0], adc:0x1f, vbvolt:0x1
+<6>[   34.101916]  [0: irq/5-muic-irq:  956] muic-universal : USB_CDP DETECTED
+<6>[   34.101939]  [0: irq/5-muic-irq:  956] resolve_dedicated_dev:Supported.
+<6>[   34.101966]  [0: irq/5-muic-irq:  956] muic-universal:muic_handle_attach attached_dev:0 new_dev:2 adc:0x1f, vbvolt:01
+<6>[   34.101989]  [0: irq/5-muic-irq:  956] muic-universal:attach_usb
+<6>[   34.102063]  [0: irq/5-muic-irq:  956] muic-universal:switch_to_ap_usb
+<6>[   34.102086]  [0: irq/5-muic-irq:  956] muic-universal:com_to_usb_ap
+<6>[   34.106422]  [0: irq/5-muic-irq:  956]   -muic_regmap_trace w 25=[01:25+00100013]ManualSW1
+<7>[   34.106446]  [0: irq/5-muic-irq:  956] [muic] muic_notifier_attach_attached_dev: (2)
+<7>[   34.106469]  [0: irq/5-muic-irq:  956] [muic] muic_notifier_notify: CMD=1, DATA=2
+<6>[   34.106492]  [0: irq/5-muic-irq:  956] [sec_bat_cable_check]ATTACHED(2)
+<6>[   34.106529]  [0: irq/5-muic-irq:  956] sec-battery battery.21: batt_handle_notification: current_cable(6), wc_status(0), wire_status(6)
+<6>[   34.106560]  [0: irq/5-muic-irq:  956] batt_handle_notification: CMD=ATTACH, attached_dev=2
+<6>[   34.106585]  [0: irq/5-muic-irq:  956] usb_notifier: usb_handle_notification action=1, attached_dev=2
+<6>[   34.106610]  [0: irq/5-muic-irq:  956] usb_notify: send_otg_notify event=vbus(1) enable=1
+<6>[   34.106634]  [0: irq/5-muic-irq:  956] usb_notify: otg_notifier_callback event=vbus(1)
+<7>[   34.106671]  [0: irq/5-muic-irq:  956] [muic] muic_handle_dock_notification: ignore(2)
+<7>[   34.106694]  [0: irq/5-muic-irq:  956] [muic] muic_notifier_notify: notify done(0x0)
+<6>[   34.106718]  [0: irq/5-muic-irq:  956] vbus_notifier_handle: (1)->(2)
+<6>[   34.106741]  [0: irq/5-muic-irq:  956] vbus_notifier_notify: CMD=2, DATA=2
+<6>[   34.106766]  [2:  kworker/u16:0:    6] usb_notify: otg_notify_state+ event=vbus(1), enable=on
+<6>[   34.106786]  [2:  kworker/u16:0:    6] usb_notifier: exynos_set_peripheral usb attached
+<6>[   34.106806]  [2:  kworker/u16:0:    6] usb_notifier: check_usb_vbus_state vbus state = 1
+<6>[   34.106830]  [0: irq/5-muic-irq:  956] usb_notifier: vbus_handle_notification cmd=2, vbus_type=HIGH
+<6>[   34.106854]  [0: irq/5-muic-irq:  956] usb_notify: send_otg_notify event=vbus_power(17) enable=1
+<6>[   34.106877]  [0: irq/5-muic-irq:  956] usb_notify: extra_notifier_callback event=vbus_power(17)
+<6>[   34.106901]  [0: irq/5-muic-irq:  956] usb_notify: extra_notify_state+ event=vbus_power(17), enable=on
+<6>[   34.106926]  [0: irq/5-muic-irq:  956] usb_notify: extra_notify_state- event=vbus_power(17), cable=vbus
+<6>[   34.106958]  [0: irq/5-muic-irq:  956] mms_ts 9-0048: mms_vbus_notification cmd=2, vbus_type=2
+<6>[   34.106987]  [0: irq/5-muic-irq:  956] mms_ts 9-0048: mms_vbus_notification : attach
+<6>[   34.107015]  [0: irq/5-muic-irq:  956] mms_ts 9-0048: mms_charger_attached [START] connected
+<6>[   34.107119]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_cable_work: Start
+<6>[   34.107161]  [0:    kworker/0:1:  396] sec_chg_set_property: float voltage(4400)
+<6>[   34.107337]  [0: irq/5-muic-irq:  956] mms_ts 9-0048: mms_charger_attached - value[1]
+<6>[   34.107376]  [0: irq/5-muic-irq:  956] vbus_handle_notification: action=2, vbus_status=2
+<6>[   34.107399]  [0: irq/5-muic-irq:  956] vbus_notifier_notify: notify done(0x0)
+<6>[   34.107744]  [2:  kworker/u16:0:    6] usb_notifier: check_usb_vbus_state: get the 13580000.usb platform_device
+<7>[   34.107772]  [2:  kworker/u16:0:    6] usb: s3c_vbus_enable is_active=1(udc_enable)
+<7>[   34.108491]  [2:  kworker/u16:0:    6] usb: set PHYPARAM0 for host mode =0x65566df
+<7>[   34.108580]  [2:  kworker/u16:0:    6] usb: set PHYPARAM0 for device mode = 0x79566df
+<7>[   34.108618]  [2:  kworker/u16:0:    6] samsung-dwc-usb2phy 135c0000.usb2phy: end of samsung_dwc_usb2phy_init
+<6>[   34.109477]  [0:    kworker/0:1:  396] sm5703_set_regulation_voltage : SM5703_CHGCNTL3 (Battery regulation voltage) : 0x1c
+<6>[   34.109523]  [0:    kworker/0:1:  396] sec_chg_set_property:[BATT] Set charging, Cable type = 6
+<6>[   34.109546]  [0:    kworker/0:1:  396] sm5703_configure_charger : Set config charging
+<6>[   34.109676]  [2:  kworker/u16:0:    6] usb_notify: otg_notify_state- event=vbus, cable=vbus
+<7>[   34.110195] I[0:      swapper/0:    0] usb: Reset interrupt
+<7>[   34.110215] I[0:      swapper/0:    0] 	 RESET handling skipped
+<7>[   34.110252] I[0:      swapper/0:    0] usb: android_disconnect con(0), sw(0)
+<7>[   34.110277] I[0:      swapper/0:    0] usb: android_disconnect mute_switch con(0) sw(0)
+<6>[   34.111082]  [0:    kworker/0:1:  396] sm5703_configure_charger : input current (1000mA)
+<6>[   34.113561]  [0:    kworker/0:1:  396] sm5703_set_input_current_limit : SM5703_VBUSCNTL (Input current limit) : 0x12
+<6>[   34.113588]  [0:    kworker/0:1:  396] sm5703_configure_charger : float voltage (4400mV)
+<6>[   34.115994]  [0:    kworker/0:1:  396] sm5703_set_regulation_voltage : SM5703_CHGCNTL3 (Battery regulation voltage) : 0x1c
+<6>[   34.116023]  [0:    kworker/0:1:  396] sm5703_configure_charger : fast charging current (1000mA), topoff current (200mA)
+<6>[   34.116050]  [0:    kworker/0:1:  396] sm5703_set_charging_current adj_current = 1000mA charger->siop_level = 100
+<6>[   34.117510]  [0:    kworker/0:1:  396] __sm5703_set_fast_charging_current : SM5703_CHGCNTL2 (fastchg current) : 0x12
+<6>[   34.117535]  [0:    kworker/0:1:  396] __sm5703_set_termination_current_limit : Set Termination
+<6>[   34.119360]  [0:    kworker/0:1:  396] __sm5703_set_termination_current_limit : SM5703_CHGCNTL4 (Top-off current threshold) : 0x20
+<6>[   34.120433]  [0: irq/5-muic-irq:  956] sm,sm5703:muic_irq_handler irq(5)
+<6>[   34.122844]  [0: irq/5-muic-irq:  956] sm,sm5703:muic_irq_handler intr[1:0x0, 2:0x80]
+<6>[   34.128606]  [0: irq/5-muic-irq:  956] muic-universal:muic_detect_dev dev[1:0x20, 2:0x0, 3:0x0], adc:0x1f, vbvolt:0x1
+<6>[   34.128630]  [0: irq/5-muic-irq:  956] muic-universal : USB_CDP DETECTED
+<6>[   34.128653]  [0: irq/5-muic-irq:  956] resolve_dedicated_dev:Supported.
+<6>[   34.128680]  [0: irq/5-muic-irq:  956] muic-universal:muic_handle_attach attached_dev:2 new_dev:2 adc:0x1f, vbvolt:01
+<6>[   34.128704]  [0: irq/5-muic-irq:  956] muic-universal:muic_handle_attach Duplicated device 2 just ignore
+<6>[   34.128727]  [0: irq/5-muic-irq:  956] vbus_notifier_handle: (2)->(2)
+<6>[   34.140664]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x00, 0x9 = 0x00, 0xa = 0x00, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   34.140700]  [0:    kworker/0:1:  396] sm5703_enable_charger_switch: turn on charger
+<6>[   34.141395]  [0:    kworker/0:1:  396] sm5703-fled:sm5703_charger_notification() line-343: sm5703_charger_notification, info->boost = 0, mode = 0, vbus_valid = 32
+<6>[   34.141426]  [0:    kworker/0:1:  396] sm5703-fled:sm5703_charger_notification() line-344: sm5703_charger_notification, info->ta_exist = 1, info->chgon_call = 1, info->flash_status = 0
+<6>[   34.144398]  [0:    kworker/0:1:  396] sm5703-fled:sm5703_charger_notification() line-372: sm5703_charger_notification, OperationMode = 5
+<6>[   34.144434]  [0:    kworker/0:1:  396] sm5703_enable_charger_switch : STATUS OF CHARGER ON(0)/OFF(1): 0
+<6>[   34.144469]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_cable_work: Status:Charging, Sleep:No, Charging:Yes, Short Poll:Yes
+<6>[   34.144500]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_cable_work: Polling time is reset to 30 sec.
+<6>[   34.146501]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   34.162723]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x00, 0x9 = 0x00, 0xa = 0x00, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   34.164224]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(248), Temp-ADC(2096)
+<6>[   34.165056]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(248), Temp-ADC(2096)
+<6>[   34.165094]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   34.165123]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   34.165988]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x1b20, temperature = 271
+<6>[   34.166249]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   34.166287]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 271, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6900
+<6>[   34.166700]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d40, soc = 772
+<6>[   34.166960]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   34.167220]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   34.167481]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   34.167739]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   34.167998]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   34.168261]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   34.168522]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   34.168781]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   34.169040]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   34.169299]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   34.169558]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   34.169817]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   34.169858]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4011mV),Inow(-160mA),Imax(1000mA),SOC(77%),Tbat(248),Tchg(0),is_hc_usb(0)
+<6>[   34.169892]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   34.170591]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   34.170616]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   34.170638]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   34.170670]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 0 secs
+<6>[   34.170707]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[   34.171399]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(248)
+<6>[   34.171432]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[   34.171467]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<7>[   34.222340] I[0:      swapper/0:    0] usb: Reset interrupt
+<7>[   34.222364] I[0:      swapper/0:    0] 	 OTG core got reset (1)!!
+<7>[   34.312009] I[0:      swapper/0:    0] usb: GET_DES
+<7>[   34.312131]  [0:    kworker/0:1:  396] usb: android_work config=          (null),connected=1,sw_connected=0
+<7>[   34.312281]  [0:    kworker/0:1:  396] usb: android_work sent uevent USB_STATE=CONNECTED
+<7>[   34.323041] I[0:      swapper/0:    0] usb: GET_DES
+<7>[   34.325581] I[0:      swapper/0:    0] usb: set_config_number single config num=0
+<7>[   34.325607] I[0:      swapper/0:    0] usb: config_buf f->mtp
+<7>[   34.325631] I[0:      swapper/0:    0] usb: config_buf f->acm0
+<7>[   34.325654] I[0:      swapper/0:    0] usb: config_buf f->adb
+<7>[   34.325677] I[0:      swapper/0:    0] usb: set_interface_count next_interface_id=4
+<7>[   34.464174] I[0:      swapper/0:    0] usb: GET_DES
+<7>[   34.464323] I[0:      swapper/0:    0] usb: set_config_number single config num=0
+<7>[   34.464346] I[0:      swapper/0:    0] usb: config_buf f->mtp
+<7>[   34.464369] I[0:      swapper/0:    0] usb: config_buf f->acm0
+<7>[   34.464392] I[0:      swapper/0:    0] usb: config_buf f->adb
+<7>[   34.464415] I[0:      swapper/0:    0] usb: set_interface_count next_interface_id=4
+<7>[   34.464553] I[0:      swapper/0:    0] usb: set_config_number single config num=0
+<7>[   34.464576] I[0:      swapper/0:    0] usb: config_buf f->mtp
+<7>[   34.464598] I[0:      swapper/0:    0] usb: config_buf f->acm0
+<7>[   34.464620] I[0:      swapper/0:    0] usb: config_buf f->adb
+<7>[   34.464642] I[0:      swapper/0:    0] usb: set_interface_count next_interface_id=4
+<6>[   34.467392] I[0:      swapper/0:    0] android_usb gadget: high-speed config #1: android
+<7>[   34.467418] I[0:      swapper/0:    0] usb: set_config e mtp[0]
+<7>[   34.467474] I[0:      swapper/0:    0] usb: set_config e acm0[1]
+<7>[   34.467504] I[0:      swapper/0:    0] usb: set_config e acm0[2]
+<7>[   34.467547] I[0:      swapper/0:    0] usb: set_config e adb[3]
+<7>[   34.467589] I[0:      swapper/0:    0] usb: SET_CON
+<7>[   34.467612] I[0:      swapper/0:    0] usb: set_config_number single config num=0
+<7>[   34.467711]  [0:    kworker/0:1:  396] usb: android_work config=ffffffc000d2def8,connected=1,sw_connected=1
+<7>[   34.467824]  [0:    kworker/0:1:  396] usb: android_work sent uevent USB_STATE=CONFIGURED
+<6>[   44.173752]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   44.190521]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   44.192072]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(253), Temp-ADC(2077)
+<6>[   44.192915]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(253), Temp-ADC(2077)
+<6>[   44.192954]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   44.192985]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   44.193863]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x21e0, temperature = 338
+<6>[   44.194129]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   44.194167]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 338, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6d00
+<6>[   44.194587]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d4c, soc = 772
+<6>[   44.194850]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   44.195116]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   44.195378]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   44.195640]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   44.195903]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   44.196166]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   44.196428]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   44.196692]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   44.196955]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   44.197217]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   44.197478]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   44.197741]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   44.197784]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4203mV),Inow(746mA),Imax(1000mA),SOC(77%),Tbat(253),Tchg(0),is_hc_usb(0)
+<6>[   44.197822]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   44.198524]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   44.198548]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   44.198569]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   44.198609]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<6>[   54.200917]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   54.215506]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   54.216986]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(254), Temp-ADC(2073)
+<6>[   54.217798]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(254), Temp-ADC(2073)
+<6>[   54.217837]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   54.217867]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   54.218703]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x21e0, temperature = 338
+<6>[   54.218950]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   54.218989]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 338, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6d00
+<6>[   54.219403]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d64, soc = 773
+<6>[   54.219660]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   54.219918]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   54.220175]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   54.220434]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   54.220692]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   54.220950]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   54.221208]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   54.221465]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   54.221726]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   54.221983]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   54.222291]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   54.222549]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   54.222592]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4207mV),Inow(773mA),Imax(1000mA),SOC(78%),Tbat(254),Tchg(0),is_hc_usb(0)
+<6>[   54.222630]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   54.223330]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   54.223355]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   54.223377]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   54.223418]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[   62.818812]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (115, 317) p:246 m:7 tc:1
+<3>[   62.918516]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   63.630300]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (103, 1146) p:200 m:5 tc:1
+<3>[   63.744316]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[   64.225126]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   64.237979]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   64.239270]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[   64.239933]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[   64.239944]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   64.239952]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   64.240612]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2310, temperature = 350
+<6>[   64.240797]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   64.240806]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 350, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[   64.241115]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d70, soc = 774
+<6>[   64.241299]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   64.241483]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   64.241667]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   64.241851]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   64.242039]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   64.242224]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   64.242408]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   64.242591]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   64.242775]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   64.242958]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   64.243142]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   64.243326]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   64.243338]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4191mV),Inow(773mA),Imax(1000mA),SOC(78%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[   64.243350]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   64.243981]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   64.243987]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   64.243993]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   64.244002]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 30 secs
+<6>[   64.244013]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[   64.244642]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(255)
+<6>[   64.244652]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[   64.244662]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[   65.493292]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (135, 509) p:100 m:5 tc:1
+<3>[   65.617237]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   66.761350]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (537, 777) p:255 m:6 tc:1
+<3>[   66.865455]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[   71.202259]  [1:    kworker/1:1:  951] muic_print_reg_log:a(0)0 b(0)0 15(0)0 1d(0)0 7(1f)0 13(1)0 3(1)0 4(0)0 3(0)0 a(20)0 b(0)0 15(0)0 1d(2)0 7(1f)0 13(1)0 13(25)1 13(25)0 13(25)0 3(0)0 4(80)0 a(20)0 b(0)0 15(0)0 1d(3)0 7(1f)0 
+<6>[   71.213987]  [1:    kworker/1:1:  951] muic_print_reg_dump:CT:1e IM1:dc IM2:0 MS1:25 MS2:0 ADC:1f DT1:20 DT2:0 DT3:0 RS1:3
+<3>[   72.146535]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (126, 468) p:107 m:5 tc:1
+<3>[   72.371346]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   72.641448]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (106, 345) p:184 m:6 tc:1
+<3>[   72.717103]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   73.640017]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (137, 770) p:63 m:5 tc:1
+<3>[   73.956231]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[   74.245881]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   74.258923]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   74.260200]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2067)
+<6>[   74.260834]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2067)
+<6>[   74.260845]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   74.260853]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   74.261471]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23d0, temperature = 358
+<6>[   74.261643]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   74.261653]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 358, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[   74.261943]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d8c, soc = 775
+<6>[   74.262116]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   74.262288]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   74.262460]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   74.262632]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   74.262804]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   74.262976]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   74.263148]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   74.263320]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   74.263492]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   74.263664]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   74.263837]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   74.264008]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   74.264020]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4187mV),Inow(644mA),Imax(1000mA),SOC(78%),Tbat(256),Tchg(0),is_hc_usb(0)
+<6>[   74.264032]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   74.264677]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   74.264683]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   74.264688]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   74.264700]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[   74.860125]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (102, 711) p:91 m:5 tc:1
+<3>[   75.579712]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   77.022419]  [0:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (111, 426) p:118 m:5 tc:1
+<3>[   79.232848]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   79.560520]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (86, 478) p:103 m:5 tc:1
+<3>[   79.867482]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   83.143087]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (113, 746) p:84 m:5 tc:1
+<3>[   83.238828]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   84.121196]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (117, 798) p:113 m:5 tc:1
+<6>[   84.266403]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   84.279587]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   84.280897]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2066)
+<6>[   84.281556]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2066)
+<6>[   84.281568]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   84.281576]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   84.282239]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23d0, temperature = 358
+<6>[   84.282420]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x406, ocv = 4023
+<6>[   84.282430]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 358, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[   84.282732]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4d98, soc = 775
+<6>[   84.282911]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   84.283091]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   84.283271]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   84.283450]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   84.283631]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   84.283811]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   84.283991]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   84.284171]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   84.284350]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   84.284535]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   84.284723]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   84.284906]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   84.284919]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4214mV),Inow(757mA),Imax(1000mA),SOC(78%),Tbat(256),Tchg(0),is_hc_usb(0)
+<6>[   84.284931]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   84.285708]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   84.285731]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   84.285737]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   84.285755]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[   84.478002]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   84.798594]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (123, 807) p:117 m:5 tc:1
+<3>[   84.923400]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   85.273073]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (133, 788) p:124 m:5 tc:1
+<3>[   85.358984]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   85.698803]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (134, 826) p:116 m:6 tc:1
+<3>[   85.804313]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   86.134513]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (119, 864) p:105 m:5 tc:1
+<3>[   86.239886]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   86.579487]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (135, 837) p:98 m:5 tc:1
+<3>[   86.656193]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   87.024900]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (140, 805) p:122 m:5 tc:1
+<3>[   87.120722]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   93.964683]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (464, 680) p:239 m:7 tc:1
+<6>[   94.287018]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[   94.300545]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[   94.301842]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2066)
+<6>[   94.302513]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2065)
+<6>[   94.302521]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[   94.302524]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[   94.303187]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2490, temperature = 365
+<6>[   94.303368]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[   94.303373]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 365, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[   94.303678]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4db0, soc = 776
+<6>[   94.303858]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[   94.304038]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[   94.304218]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[   94.304397]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[   94.304578]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[   94.304780]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[   94.304968]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[   94.305152]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[   94.305340]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[   94.305519]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[   94.305701]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[   94.305881]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[   94.305888]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4195mV),Inow(632mA),Imax(1000mA),SOC(78%),Tbat(256),Tchg(0),is_hc_usb(0)
+<6>[   94.305895]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[   94.306524]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[   94.306526]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[   94.306527]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[   94.306533]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 60 secs
+<6>[   94.306540]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[   94.307166]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(256)
+<6>[   94.307172]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[   94.307178]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[   95.457007]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   95.832723]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (532, 595) p:216 m:6 tc:1
+<3>[   96.312079]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   96.650055]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (511, 652) p:251 m:7 tc:1
+<3>[   96.802130]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   97.524061]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (487, 610) p:255 m:6 tc:1
+<3>[   97.609113]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   97.966102]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (523, 544) p:255 m:7 tc:1
+<3>[   98.051372]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   98.427391]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (508, 582) p:255 m:7 tc:1
+<3>[   98.502742]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   98.888770]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (510, 583) p:255 m:7 tc:1
+<3>[   98.973707]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   99.349771]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (490, 588) p:255 m:6 tc:1
+<3>[   99.434871]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[   99.859217]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (511, 585) p:255 m:7 tc:1
+<3>[   99.944129]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  100.560692]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (474, 294) p:255 m:7 tc:1
+<3>[  100.645628]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  101.002204]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (465, 367) p:189 m:7 tc:1
+<3>[  101.058762]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  101.915740]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (439, 920) p:172 m:6 tc:1
+<3>[  103.835970]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  104.153977]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (439, 794) p:155 m:6 tc:1
+<6>[  104.308435]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  104.321589]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  104.322877]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(257), Temp-ADC(2064)
+<6>[  104.323517]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(257), Temp-ADC(2064)
+<6>[  104.323530]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  104.323538]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  104.324162]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2490, temperature = 365
+<6>[  104.324335]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  104.324345]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 365, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  104.324635]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4dbc, soc = 777
+<6>[  104.324807]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  104.324980]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  104.325152]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  104.325324]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  104.325495]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  104.325667]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  104.325839]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  104.326011]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  104.326183]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  104.326355]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  104.326529]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  104.326708]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  104.326722]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4191mV),Inow(648mA),Imax(1000mA),SOC(78%),Tbat(257),Tchg(0),is_hc_usb(0)
+<6>[  104.326739]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  104.327403]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  104.327411]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  104.327417]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  104.327430]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  104.883406]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  105.413635]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (574, 529) p:255 m:6 tc:1
+<3>[  105.507948]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  105.980801]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (531, 596) p:232 m:7 tc:1
+<3>[  106.046232]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  107.618335]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (501, 665) p:159 m:6 tc:1
+<3>[  107.704041]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  108.596513]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (436, 946) p:145 m:6 tc:1
+<3>[  109.040988]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  109.352088]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (441, 910) p:173 m:6 tc:1
+<3>[  109.457621]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  109.865528]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (445, 831) p:169 m:6 tc:1
+<3>[  109.922541]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  111.144244]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (688, 521) p:85 m:5 tc:1
+<3>[  112.925840]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  113.624229]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (179, 1246) p:146 m:6 tc:1
+<3>[  113.700728]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[  114.329193]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  114.343225]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  114.344750]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2067)
+<6>[  114.345592]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2067)
+<6>[  114.345631]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  114.345660]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  114.346540]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2500, temperature = 370
+<6>[  114.346806]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  114.346844]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 370, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  114.347263]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4dd4, soc = 778
+<6>[  114.347526]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  114.347789]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  114.348052]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  114.348315]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  114.348577]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  114.348845]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  114.349107]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  114.349368]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  114.349631]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  114.349893]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  114.350156]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  114.350418]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  114.350460]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4191mV),Inow(746mA),Imax(1000mA),SOC(78%),Tbat(256),Tchg(0),is_hc_usb(0)
+<6>[  114.350498]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  114.351201]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  114.351225]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  114.351247]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  114.351287]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  120.420983]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (243, 1011) p:229 m:7 tc:1
+<3>[  120.472533]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[  124.353628]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  124.369495]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  124.371020]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2068)
+<6>[  124.371862]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(256), Temp-ADC(2068)
+<6>[  124.371902]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  124.371931]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  124.373095]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x24b0, temperature = 366
+<6>[  124.373465]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  124.373505]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 366, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  124.374104]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4de0, soc = 778
+<6>[  124.374467]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  124.374829]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  124.375077]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  124.375321]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  124.375564]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  124.375807]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  124.376051]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  124.376293]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  124.376536]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  124.376778]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  124.377022]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  124.377266]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  124.377310]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4218mV),Inow(765mA),Imax(1000mA),SOC(78%),Tbat(256),Tchg(0),is_hc_usb(0)
+<6>[  124.377348]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  124.378043]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  124.378068]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  124.378089]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  124.378124]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 90 secs
+<6>[  124.378162]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[  124.378849]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(256)
+<6>[  124.378883]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[  124.378920]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  125.622307]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (486, 363) p:255 m:6 tc:1
+<3>[  125.707551]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  127.789071]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (157, 1222) p:145 m:5 tc:1
+<3>[  127.912058]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[  131.362245]  [1:    kworker/1:1:  951] muic_print_reg_log:a(0)0 b(0)0 15(0)0 1d(0)0 7(1f)0 13(1)0 3(1)0 4(0)0 3(0)0 a(20)0 b(0)0 15(0)0 1d(2)0 7(1f)0 13(1)0 13(25)1 13(25)0 13(25)0 3(0)0 4(80)0 a(20)0 b(0)0 15(0)0 1d(3)0 7(1f)0 
+<6>[  131.373975]  [1:    kworker/1:1:  951] muic_print_reg_dump:CT:1e IM1:dc IM2:0 MS1:25 MS2:0 ADC:1f DT1:20 DT2:0 DT3:0 RS1:3
+<6>[  134.381073]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  134.396047]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  134.397526]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  134.398475]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  134.398516]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  134.398546]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  134.399828]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x24b0, temperature = 366
+<6>[  134.400223]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x407, ocv = 4027
+<6>[  134.400263]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 366, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  134.400785]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4dfc, soc = 779
+<6>[  134.401050]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  134.401315]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  134.401579]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  134.401842]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  134.402107]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  134.402372]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  134.402636]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  134.402901]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  134.403163]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  134.403428]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  134.403692]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  134.403954]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  134.403998]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4222mV),Inow(765mA),Imax(1000mA),SOC(78%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  134.404034]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  134.404739]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  134.404764]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  134.404786]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  134.404826]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<6>[  144.407163]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  144.421289]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  144.422777]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2070)
+<6>[  144.423588]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2070)
+<6>[  144.423626]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  144.423656]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  144.424503]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2420, temperature = 361
+<6>[  144.424764]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  144.424803]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 361, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  144.425214]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e14, soc = 780
+<6>[  144.425471]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  144.425728]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  144.425985]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  144.426241]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  144.426504]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  144.426762]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  144.427018]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  144.427276]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  144.427534]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  144.427791]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  144.428047]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  144.428304]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  144.428347]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4222mV),Inow(773mA),Imax(1000mA),SOC(78%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  144.428385]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  144.429086]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  144.429111]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  144.429133]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  144.429173]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<6>[  154.431429]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  154.447954]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  154.449636]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2071)
+<6>[  154.450466]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2071)
+<6>[  154.450505]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  154.450535]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  154.451401]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23d0, temperature = 358
+<6>[  154.451661]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  154.451700]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 358, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  154.452115]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e20, soc = 781
+<6>[  154.452372]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  154.452629]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  154.452886]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  154.453144]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  154.453401]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  154.453658]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  154.453915]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  154.454172]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  154.454428]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  154.454685]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  154.454942]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  154.455198]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  154.455241]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4226mV),Inow(777mA),Imax(1000mA),SOC(78%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  154.455278]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  154.455977]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  154.456002]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  154.456023]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  154.456057]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 120 secs
+<6>[  154.456095]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[  154.456789]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(255)
+<6>[  154.456824]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[  154.456860]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<6>[  164.458818]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  164.473760]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  164.475278]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2072)
+<6>[  164.476123]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2072)
+<6>[  164.476161]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  164.476191]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  164.477070]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23d0, temperature = 358
+<6>[  164.477336]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  164.477374]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 358, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  164.477794]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e38, soc = 782
+<6>[  164.478058]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  164.478321]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  164.478584]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  164.478847]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  164.479110]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  164.479373]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  164.479636]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  164.479900]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  164.480162]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  164.480428]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  164.480691]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  164.480955]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  164.480997]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4226mV),Inow(773mA),Imax(1000mA),SOC(78%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  164.481035]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  164.481737]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  164.481762]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  164.481784]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  164.481822]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<6>[  174.484268]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  174.498780]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  174.500495]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2072)
+<6>[  174.501338]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2072)
+<6>[  174.501377]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  174.501407]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  174.502293]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23b0, temperature = 356
+<6>[  174.502559]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  174.502597]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 356, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  174.503015]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e54, soc = 783
+<6>[  174.503278]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  174.503541]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  174.503804]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  174.504066]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  174.504332]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  174.504594]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  174.504862]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  174.505124]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  174.505387]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  174.505649]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  174.505911]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  174.506174]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  174.506216]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4230mV),Inow(773mA),Imax(1000mA),SOC(79%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  174.506253]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  174.506956]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  174.506980]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  174.507002]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  174.507041]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  181.441762]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (171, 1239) p:161 m:6 tc:1
+<3>[  181.516435]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  181.954645]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (195, 1208) p:174 m:6 tc:1
+<3>[  182.013860]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  183.806515]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (161, 375) p:158 m:6 tc:1
+<3>[  183.894834]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  184.494344]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (252, 1123) p:203 m:7 tc:1
+<6>[  184.508298]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  184.521473]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  184.522759]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  184.523398]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  184.523411]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  184.523419]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  184.524039]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x23b0, temperature = 356
+<6>[  184.524211]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  184.524221]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 356, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  184.524511]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e60, soc = 783
+<6>[  184.524683]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  184.524854]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  184.525026]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  184.525197]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  184.525368]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  184.525540]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  184.525711]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  184.525883]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  184.526055]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  184.526226]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  184.526397]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  184.526568]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  184.526581]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4207mV),Inow(757mA),Imax(1000mA),SOC(79%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  184.526593]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  184.527245]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  184.527252]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  184.527257]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  184.527268]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_time_management: Charging Time : 150 secs
+<6>[  184.527278]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_temperature: HLT(800) HLR(750) HT(580), HR(530), LT(-50), LR(0)
+<6>[  184.527935]  [0:    kworker/0:1:  396] sec_bat_swelling_check: status(1), swell_mode(0:0), cv(0x1130), temp(255)
+<6>[  184.527947]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_fullcharged_check: Charging Mode : Normal
+<6>[  184.527957]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  184.572045]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  185.318404]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (523, 524) p:202 m:6 tc:1
+<3>[  185.396307]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  185.950229]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (567, 745) p:115 m:5 tc:1
+<3>[  186.039795]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  186.277652]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (490, 925) p:108 m:6 tc:1
+<3>[  186.457590]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  186.752201]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (442, 790) p:157 m:6 tc:1
+<3>[  186.830112]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  187.080065]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (408, 825) p:161 m:7 tc:1
+<3>[  187.157607]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  188.863490]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (184, 1232) p:105 m:6 tc:1
+<3>[  188.924348]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  189.894979]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (510, 1042) p:161 m:7 tc:1
+<3>[  189.967678]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  191.012148]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (181, 1221) p:156 m:6 tc:1
+<3>[  191.072947]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[  191.522100]  [1:    kworker/1:1:  951] muic_print_reg_log:a(0)0 b(0)0 15(0)0 1d(0)0 7(1f)0 13(1)0 3(1)0 4(0)0 3(0)0 a(20)0 b(0)0 15(0)0 1d(2)0 7(1f)0 13(1)0 13(25)1 13(25)0 13(25)0 3(0)0 4(80)0 a(20)0 b(0)0 15(0)0 1d(3)0 7(1f)0 
+<6>[  191.529748]  [1:    kworker/1:1:  951] muic_print_reg_dump:CT:1e IM1:dc IM2:0 MS1:25 MS2:0 ADC:1f DT1:20 DT2:0 DT3:0 RS1:3
+<3>[  192.930263]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (232, 1023) p:183 m:6 tc:1
+<3>[  192.996717]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  194.447888]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (235, 365) p:250 m:6 tc:1
+<3>[  194.527468]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<6>[  194.529196]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  194.542233]  [0:    kworker/0:1:  396] sm5703_test_read: 0x4 = 0xbe, 0x5 = 0xff, 0x6 = 0xf3, 0x7 = 0xff, 0x8 = 0x08, 0x9 = 0x08, 0xa = 0x03, 0xb = 0x00, 0xc = 0x55, 0xd = 0x12, 0xe = 0x03, 0xf = 0x12, 0x10 = 0x1c, 0x11 = 0x20, 0x12 = 0x7a, 0x13 = 0x08, 0x60 = 0x03, 0x6b = 0x20, 0x66 = 0x00, 
+<6>[  194.543508]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  194.544142]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_temperature_by_adc: Temp(255), Temp-ADC(2069)
+<6>[  194.544153]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: iocv_error_count (0)
+<6>[  194.544161]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[  194.544781]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_temperature: read = 0x2440, temperature = 362
+<6>[  194.544953]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_ocv: read = 0x408, ocv = 4031
+<6>[  194.544963]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: fg_get_soc : temp_std = 25, temperature = 362, temp_offset = 10, temp_offset_cal = 0x1, curr_cal = 0x6c00
+<6>[  194.545253]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_get_soc: read = 0x4e78, soc = 784
+<6>[  194.545425]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x30 = 0x1c85 
+<6>[  194.545597]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x31 = 0x1c85 
+<6>[  194.545769]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x32 = 0x1c85 
+<6>[  194.545941]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x33 = 0x1c85 
+<6>[  194.546113]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x34 = 0x1c86 
+<6>[  194.546285]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x35 = 0x1c85 
+<6>[  194.546457]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x36 = 0x1c86 
+<6>[  194.546629]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x37 = 0x1c85 
+<6>[  194.546801]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x40 = 0x1c48 
+<6>[  194.546972]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x41 = 0x1c3d 
+<6>[  194.547144]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x42 = 0x1c3d 
+<6>[  194.547316]  [0:    kworker/0:1:  396] sm5703-fuelgauge 2-0071: sm5703_fg_test_read: sm5703 FG 0x43 = 0x1c4d 
+<6>[  194.547328]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_get_battery_info:Vnow(4230mV),Inow(566mA),Imax(1000mA),SOC(79%),Tbat(255),Tchg(0),is_hc_usb(0)
+<6>[  194.547339]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_battery_cable_check: Battery Connected
+<6>[  194.547985]  [0:    kworker/0:1:  396] sm5703_get_charging_health : charger->is_charging = 1, charger->cable_type = 6, charger->aicl_state = 0
+<6>[  194.547992]  [0:    kworker/0:1:  396] sm5703_get_charging_health : vbus_status = 32
+<6>[  194.547997]  [0:    kworker/0:1:  396] sm5703_get_charging_health : Health : 1
+<6>[  194.548009]  [0:    kworker/0:1:  396] sec-battery battery.21: sec_bat_monitor_work: Status(Charging), mode(Normal), Health(Good), Cable(6), level(100%)
+<3>[  196.632845]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (238, 419) p:152 m:6 tc:1
+<3>[  196.701179]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
+<3>[  199.320525]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: P[0] (191, 1125) p:158 m:6 tc:1
+<3>[  199.889013]  [1:   irq/9-mms_ts: 1081] mms_ts 9-0048: R[0] V[365306] tc:0
