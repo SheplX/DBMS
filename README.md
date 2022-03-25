@@ -1,7 +1,7 @@
 # DBMS
 A simple Bash Shell Script Database Management System (DBMS) created by Me, @NouranTaha.
 
-The Project aim to develop DBMS, that will enable users to store and retrieve the data from Hard-disk (Database Folder).
+The Project aim to develop DBMS, that will enable users to store and retrieve the data from Hard-disk (Databases Folder).
 
 # Project Features:
 The Application will be CLI Menu based app, that will provide to user this Menu items:
