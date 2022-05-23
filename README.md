@@ -19,3 +19,6 @@ The Application will be CLI Menu based app, that will provide to user this Menu 
 - Insert into Table
 - Select From Table
 - Delete From Table
+- Update Table            
+- Back To Main Menu        
+- Exit 
