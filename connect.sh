@@ -75,7 +75,6 @@
    echo "Database $dbName was Successfully Selected"
   else
    echo "Database $dbName wasn't found"
-   cd .. 
    ./main.sh
    fi
  }
